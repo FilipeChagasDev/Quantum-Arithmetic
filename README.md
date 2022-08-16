@@ -1,9 +1,9 @@
 # Register-by-Constant QFT Addition Algorithm - by Filipe Chagas Ferraz
 
 
-## Presentation
+## Introduction
 
-This is a quantum algorithm I created that can be considered a simplified version of Draper's adder. This algorithm is described as a unitary operator $U_+(c)$ such that $U_+(c)|a\rangle \mapsto | a + c \pmod{2^N}\rangle$, where $|a\rangle$ is the initial state of the $N$-qubit register. This state can be defined for natural number as:
+This is a quantum algorithm I created that can be considered a simplified version of Draper's adder. This algorithm is described as a unitary operator $U_+(c)$ such that $U_+(c)|a\rangle = | a + c \pmod{2^N}\rangle$, where $|a\rangle$ is the initial state of the $N$-qubit register. This state can be defined for natural number as:
 
 $$|a\rangle = |a_N,...,a_2,a_1\rangle, \quad a = \sum_{j=1}^N a_j 2^{j-1}$$
 
@@ -25,7 +25,7 @@ This repository is organized as follows:
 
 * The file **test_tools.py** contains functions that are used for testing.
 
-## Citation
+## Paper
 
 This algorithm is described in detail in the paper *"Quantum Algorithm based on Quantum Fourier Transform for Register-by-Constant Addition"* (https://doi.org/10.48550/arXiv.2207.05309). If you use this algorithm in your research, please cite it as follows:
 
