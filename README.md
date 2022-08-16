@@ -1,5 +1,6 @@
 # Register-by-Constant QFT Addition Algorithm - by Filipe Chagas Ferraz
 
+[![DOI](https://zenodo.org/badge/525301217.svg)](https://zenodo.org/badge/latestdoi/525301217)
 
 ## Introduction
 
